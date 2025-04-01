@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+canvas {
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.score {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #333;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
